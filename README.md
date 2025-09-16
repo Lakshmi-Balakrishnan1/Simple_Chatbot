@@ -1,4 +1,4 @@
-CHATTY - THE BOT
+Simple Chatbot
 
 This  is a simple chatbot built using Python, LangChain and Groq LLM. The UI is created with Streamlit. Streamlit is an open-source Python library that allows users to create web-based user interfaces for machine learning models, data visualizations, and other applications.  LangChain is an open-source framework for building large language models (LLMs) and conversational AI applications. Groq provides a cloud-based AI platform for building and deploying large language models (LLMs).
 
@@ -11,5 +11,8 @@ FEATURES:
 - Multiple Persona: User can choose between helpful and sarcastic behaviour for the bot using a radio button in the Streamlit interface
 - Conversation Memory:  Remembers previous messages within the session.
 
-NETWORK URL: http://172.16.212.145:8501
-
+REQUIRED LIBRARIES:
+- streamlit
+- langchain
+- langchain_groq
+- python-dotenv
